@@ -38,7 +38,7 @@ const Skills = () => {
                             <h2>UI/UX Designing</h2>
                         </div>
                         <ul className="list-2">
-                            <li>Basic Knowledge of UI/UX princilples</li>
+                            <li>Knowledge of UI/UX principles</li>
                             <li>Knowledge of using Adobe XD, Photoshop and Illustrator</li>
                             <li>Experienced in creating mockups, wireframes and prototypes</li>
                         </ul>
