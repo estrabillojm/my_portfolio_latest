@@ -1,0 +1,87 @@
+  .social-sm{
+      display:none;
+  }
+  
+  @media only screen and (max-width: 1090px) {
+    .social-sm{
+        @apply block mt-4;
+    }
+
+    .social-sm ul{        
+        @apply flex;
+    }   
+
+    .fb-logo-sm{
+        max-width:40px;
+        left:-2px;
+    }
+    
+    .li-logo-sm{
+        max-width:40px;
+        left:44px;
+    }
+
+    .skype-logo-sm{
+        max-width:40px;
+        right:-130px;
+    
+    }
+
+    .social-sm ul li{
+        position:relative;
+    }
+
+    .social-sm ul li img{
+        @apply absolute;  
+        transition: opacity .3s ease;
+    }
+
+    .social-sm ul li img:hover{
+        opacity:.7;
+    }
+
+
+  }
+
+
+  @media only screen and (max-width: 869px) {
+    
+    .social-sm ul{
+        @apply flex justify-center;
+    }
+
+    .social-sm ul li img{
+        @apply static;  
+    }
+
+    .fb-logo-sm{
+        max-width:50px;
+        left:-15px;
+    }
+    
+    .li-logo-sm{
+        max-width:50px;
+        left:24px;
+    }
+
+    .skype-logo-sm{
+        max-width:50px;
+        left:45px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 386px){
+    .fb-logo-sm{
+        max-width:40px;
+    }
+    
+    .li-logo-sm{
+        max-width:40px;
+    }
+
+    .skype-logo-sm{
+        max-width:40px;
+    }
+  }

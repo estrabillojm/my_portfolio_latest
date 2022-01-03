@@ -1,0 +1,24 @@
+.stack0{fill:#13AA52;}
+.stack1{fill:#FFFFFF;}
+.stack2{fill:#5B5B5B;}
+.stack3{fill:#222222;}
+.stack4{fill:#61DAFB;}
+.stack5{fill:#61DAFB;stroke:#61DAFB;stroke-miterlimit:10;}
+.stack6{fill:#8CC84B;}
+
+.stackDiv{
+    opacity:0;
+    max-height:90px;
+    animation: stacks .3s ease-in forwards;
+}
+
+
+@keyframes stacks{
+    0%{
+        opacity:0;
+        transform: translateX(15px);
+    }
+    100%{
+        opacity:1;
+    }
+}

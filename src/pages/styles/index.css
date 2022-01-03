@@ -1,0 +1,158 @@
+.index-container{
+    height:100%;
+}
+
+
+.flex-container{
+    @apply flex;
+    min-height:inherit;
+}
+
+
+.index-intro{
+    @apply flex-1;
+}
+
+
+.index-img{
+    @apply flex-1 relative flex items-center;
+
+
+}
+
+
+.img-laptop{
+    @apply absolute;
+    right:-50px;
+}
+
+.laptop-sm-c{
+    display:none;
+}
+
+.me-img{
+    @apply absolute;
+    right:-150px;
+    top:-10px;
+
+
+}
+
+.index-intro{
+    min-height:inherit;
+}
+
+.intro-wrapper{
+    @apply flex flex-col justify-center;
+    min-height:100%;
+}
+
+.index-intro .intro-wrapper h1{
+    @apply text-6xl mb-5;
+}
+
+.index-intro .intro-wrapper h2{
+    @apply text-4xl text-orange-600 mb-5;
+}
+
+.btn-container .projects , .profile{
+    @apply py-2 px-8 bg-orange-600 text-white rounded-sm hover:opacity-70 shadow-md;
+    transition: all .3s ease;
+}
+
+.btn-container .profile{
+    @apply px-16 ml-2  text-black;
+    background: #bdb2fa;
+}
+
+
+
+@media only screen and (max-width: 1347px) {
+    .index-intro .intro-wrapper h1{
+        @apply text-5xl mb-4;
+    }
+    
+    .index-intro .intro-wrapper h2{
+        @apply text-3xl mb-4;
+    }
+}
+
+
+@media only screen and (max-width: 1090px) {
+    .index-intro .intro-wrapper h1{
+        @apply text-4xl mb-4;
+    }
+    
+    .index-intro .intro-wrapper h2{
+        @apply text-2xl mb-4;
+    }
+
+
+    .btn-container .projects , .profile{
+        @apply text-sm;
+    }
+    
+    .btn-container .profile{
+        @apply text-sm;
+    }
+}
+
+@media only screen and (max-width: 869px) {
+    .index-img{
+        display:none;
+    }
+
+    .index-intro{
+        @apply flex justify-center;
+    }
+
+    .index-intro *{
+        text-align:center;
+    }
+
+    .index-intro .intro-wrapper h1{
+        @apply text-2xl mb-1;
+    }
+    
+    .index-intro .intro-wrapper h2{
+        @apply text-xl mb-2;
+    }
+
+
+    .btn-container .projects , .profile{
+        @apply text-sm;
+    }
+    
+    .btn-container .profile{
+        @apply text-sm;
+    }
+    .laptop-sm-c{
+        @apply flex justify-center mb-3;
+        text-align: center;
+    }
+
+    .laptop-sm{
+        max-width:200px;
+    }
+
+    .intro-wrapper{
+        @apply flex flex-col justify-start ;
+        min-height:100%;
+    }
+    
+}
+
+@media only screen and (max-width: 386px){
+
+    .btn-container{
+        @apply flex flex-col;
+    }
+    .btn-container .projects , .profile{
+        @apply py-1 mb-1;
+        transition: all .3s ease;
+    }
+    
+    .btn-container .profile{
+        @apply ml-0;
+    }
+}

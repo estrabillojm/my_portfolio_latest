@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply m-0 p-0;
+    font-family: "Poppins", "Myriad Pro", "Arial";
+}
+
+body{
+    background: url("../pages/images/bg.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.container{
+  max-width: 1250px;
+  margin:0 auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-orange-500;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(40, 102, 173);
+  }
+
+.global-wrapper{
+    min-height: calc(90vh - 65px);
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .container{
+      max-width: 992px;
+      margin:0 auto;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1090px) {
+  .container{
+      max-width: 768px;
+      margin:0 auto;
+  }
+}
+
+@media only screen and (max-width: 869px) {
+  .container{
+      max-width: 700px;
+      margin:0 auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 200px){
+  body{
+    background:rgb(175, 220, 221);
+  }
+
+}

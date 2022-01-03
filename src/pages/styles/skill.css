@@ -1,0 +1,121 @@
+.skill-flex{
+    @apply flex;
+}
+
+
+.skill-flex .skill-content{
+    @apply flex-1 flex flex-col justify-center;
+}
+
+.skill-content h2{
+    @apply text-xl mb-2;
+    color:#718CC7;
+}
+
+g{
+    opacity:1;
+}
+
+
+.skill-1{
+    @apply mb-5;
+}
+
+
+.current-stack{
+    @apply mb-5;
+}
+
+.list-1, .list-2{
+    @apply pl-5 border-l-2 ml-2;
+    border-color: #FF7101;
+}
+
+.list-1 li, .list-2 li{
+    @apply mb-1 text-gray-600;
+}
+
+
+.current-stack h2{
+    opacity:0;
+    animation: currentStack .3s ease-in forwards;
+}
+
+
+@keyframes currentStack{
+    0%{
+        opacity:0;
+        transform: translateX(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+
+.skill-1-header{
+    opacity:0;
+    animation: toTheRight .3s .3s ease-in forwards;
+}
+
+.list-1{
+    opacity:0;
+    animation: toTheBottom .5s .3s ease-in forwards;
+}
+
+
+
+
+
+@keyframes toTheRight{
+    0%{
+        opacity:0;
+        transform: translateX(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes toTheBottom{
+    0%{
+        opacity:0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+.skill-2-header{
+    opacity:0;
+    animation: toTheUp .3s .6s ease-in forwards;
+}
+
+.list-2{
+    opacity:0;
+    animation: toTheBottom .3s .6s ease-in forwards;
+}
+
+
+@keyframes toTheRight{
+    0%{
+        opacity:0;
+        transform: translateX(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes toTheUp{
+    0%{
+        opacity:0;
+        transform: translateY(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
