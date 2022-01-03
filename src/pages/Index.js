@@ -30,7 +30,7 @@ const Index = () => {
                     </div>
                     <div className="index-img">
                         <div className="img-laptop">
-                            <img src={Laptop} alt="laptop" />
+                            <img src={Laptop} alt="laptop" className="laptop"/>
                         </div>
                     </div>
                 </div>

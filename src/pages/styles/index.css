@@ -22,8 +22,10 @@
 
 
 .img-laptop{
+    opacity:0;
     @apply absolute;
     right:-50px;
+    animation: animateLaptop .5s 1.5s ease-in forwards;
 }
 
 .laptop-sm-c{
@@ -48,11 +50,16 @@
 }
 
 .index-intro .intro-wrapper h1{
+    opacity:0;
+    animation: animateIndex .5s ease-in forwards;
     @apply text-6xl mb-5;
 }
 
+
 .index-intro .intro-wrapper h2{
     @apply text-4xl text-orange-600 mb-5;
+    opacity:0;
+    animation: animateIndexTitle .5s .4s ease-in forwards;
 }
 
 .btn-container .projects , .profile{
@@ -64,6 +71,19 @@
     @apply px-16 ml-2  text-black;
     background: #bdb2fa;
 }
+
+
+.btn-container .profile{
+    opacity:0;
+    animation: animateIndexButton .5s 1.4s ease-in forwards;
+}
+
+
+.btn-container .projects{
+    opacity:0;
+    animation: animateIndexButton .5s 1s ease-in forwards;
+}
+
 
 
 
@@ -139,6 +159,11 @@
         @apply flex flex-col justify-start ;
         min-height:100%;
     }
+
+    .index-img .img-laptop .laptop{
+        opacity:0;
+        animation:animateLaptop .5s 1.5s ease-in forwards;
+    }
     
 }
 
@@ -154,5 +179,50 @@
     
     .btn-container .profile{
         @apply ml-0;
+    }
+}
+
+
+
+
+@keyframes animateIndex{
+    0%{
+        opacity:0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+@keyframes animateLaptop{
+    0%{
+        opacity:0;
+        transform: translateY(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+@keyframes animateIndexTitle{
+    0%{
+        opacity:0;
+        transform: translateX(-15px);
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes animateIndexButton{
+    0%{
+        opacity:0;
+        transform: translateX(15px);
+    }
+    100%{
+        opacity:1;
     }
 }
