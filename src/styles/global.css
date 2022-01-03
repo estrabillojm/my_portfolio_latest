@@ -19,7 +19,6 @@ body{
   margin:0 auto;
 }
 
-
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -52,8 +51,6 @@ body{
   }
 }
 
-
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1090px) {
   .container{
       max-width: 768px;
@@ -67,8 +64,6 @@ body{
       margin:0 auto;
   }
 }
-
-
 
 @media only screen and (max-width: 200px){
   body{

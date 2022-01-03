@@ -1,0 +1,22 @@
+.container-404{
+    @apply border flex flex-col justify-center items-center;
+    height:100vh;
+}
+
+.container-404 h2{
+    @apply text-6xl mb-5 text-red-600;
+}
+
+.container-404 h3{
+    @apply text-4xl mb-10 text-gray-500;
+}
+
+.container-404 .homepage-404{
+    @apply border-2 px-8 py-2 rounded-md text-orange-500;
+    transition:all .5s ease-in-out;
+}
+
+
+.container-404 .homepage-404:hover{
+    @apply bg-orange-500 text-white;
+}
