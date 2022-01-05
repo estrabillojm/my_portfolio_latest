@@ -29,6 +29,7 @@ const Skills = () => {
                             <li>Experienced in using Modern Javascript (ES6)</li>
                             <li>Understanding of Async await and Promises in Javascript</li>
                             <li>Knowledge of OOP, Functional and Procedural Approach in Javascript</li>
+                            <li>Experienced in creating of highly reusable components</li>
                             <li>Follow Software Development best practices</li>
                             <li>Experienced in consuming data from an API</li>
                         </ul>

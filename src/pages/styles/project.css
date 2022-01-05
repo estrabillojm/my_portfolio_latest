@@ -1,0 +1,76 @@
+.project-grid{
+    @apply grid grid-cols-5 gap-5 pt-10;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom:200px;
+}
+
+.p-projects{
+    @apply grid grid-cols-3;
+    grid-auto-rows: minmax(300px, auto);
+    gap:15px;
+    transition: grid-column .5s ease-in;
+}
+
+.no-details{
+    grid-column: 2/5;
+}
+
+.with-details{
+    animation: animateGrid .5s ease-in;
+    grid-column: 1/4;
+}
+
+.prj-details{
+    opacity:0;
+    @apply p-10;
+}
+
+.show-details{
+    @apply rounded-md;
+    grid-column: 4/6;
+    animation: showDetails .5s .5s ease-out forwards;
+}
+
+.prj-title{
+    @apply text-2xl mb-3;
+}
+
+.project-description, .technology-used{
+    @apply mb-3;
+}
+
+
+@keyframes animateGrid{
+    0%{
+        transform:translateX(200px);
+    }
+    100%{
+        transform: translateX(0); 
+    }   
+}
+
+
+@keyframes showDetails{
+    0%{
+        opacity:0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity:.9;
+        @apply bg-white opacity-80;
+    }
+}
+
+.prj-details h3{
+    @apply text-blue-500;
+}
+
+.prj-desc, .tech-used, .prj-url .url{
+    @apply text-justify text-sm;
+    
+}
+
+.prj-line{
+    @apply pl-3 border-l-2 border-orange-500;
+}
+

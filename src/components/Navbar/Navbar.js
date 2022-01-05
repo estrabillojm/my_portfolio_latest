@@ -28,7 +28,11 @@ const Navbar = ({ page }) => {
                             <div className={ page === "skills" ? "active-line" : ""}></div>
                         </li>
 
-                        <li><Link to="/">Portfolio</Link></li>
+                        <li className={ page === "projects" ? "active-link" : ""}>
+                            <Link to="/projects">Projects</Link>
+                            <div className={ page === "projects" ? "active-line" : ""}></div>
+                        </li>
+
                         <li><Link to="/">About</Link></li>
                         <li><Link to="/">Contact Me</Link></li>
                     </ul>
