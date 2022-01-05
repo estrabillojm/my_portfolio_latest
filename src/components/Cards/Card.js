@@ -1,9 +1,9 @@
 import "./style.css"
 
-const Card = ({ image, project, status, viewDetails }) => {
+const Card = ({ image, project, status, viewDetails, cardClass }) => {
     
     return ( 
-        <div className="card">
+        <div className={`card ${cardClass}`}>
             <div className="prj-img">
                 <img src={ image } alt="portfolio"/>
             </div>
