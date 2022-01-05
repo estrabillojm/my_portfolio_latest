@@ -33,8 +33,14 @@ const Navbar = ({ page }) => {
                             <div className={ page === "projects" ? "active-line" : ""}></div>
                         </li>
 
-                        <li><Link to="/">About</Link></li>
-                        <li><Link to="/">Contact Me</Link></li>
+                        <li className={ page === "about" ? "active-link" : ""}>
+                            <Link to="/about-me">About</Link>
+                            <div className={ page === "about" ? "active-line" : ""}></div>
+                        </li>
+                        <li className={ page === "contact" ? "active-link" : ""}>
+                            <Link to="/contact-me">Contact Me</Link>
+                            <div className={ page === "contact" ? "active-line" : ""}></div>
+                        </li>
                     </ul>
                 </div>
                 <div className="show-sm">

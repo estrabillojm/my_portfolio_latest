@@ -1,4 +1,5 @@
 import SinglePoly from "../../pages/svg/SinglePoly";
+import "./style.css"
 
 const ProjectDetail = ({ projects, index, hideDetail}) => {
     return ( 
