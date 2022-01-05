@@ -13,9 +13,9 @@ export const projects = [
         details: {
             description: "This Portfolio is a compilation of materials that exemplifies my beliefs, skills, qualifications, education, training and experiences. It provides insight into my personality and work ethic.",
             techs: ["React.js", "JSX", "TailwindCSS", "CSS", "CSS Media Queries", "CSS Animation"],
-            url: "https://github.com/estrabillojm/latest-portfolio.git",
+            url: "https://git.heroku.com/jme-portfolio.git",
             urlBack: "",
-            domain: ""
+            domain: "heroku git"
         }
     },
     {

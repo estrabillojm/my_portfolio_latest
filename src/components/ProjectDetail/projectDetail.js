@@ -1,3 +1,5 @@
+import SinglePoly from "../../pages/svg/SinglePoly";
+
 const ProjectDetail = ({ projects, index, hideDetail}) => {
     return ( 
         <div className="prj-details" id="details">
@@ -30,17 +32,20 @@ const ProjectDetail = ({ projects, index, hideDetail}) => {
                             <div className="prj-line">
                                 <p className="url">
                                     {projects[index].details.urlBack && <strong>Client Side: </strong>}
-                                    {projects[index].details.url &&  <a href={projects[index].details.url} target="_blank">Github</a> }
+                                    {projects[index].details.url &&  <a href={projects[index].details.url} target="_blank">{projects[index].details.domain}</a> }
                                 </p>
                                 <p className="url">
                                     {projects[index].details.urlBack && <strong>Server Side: </strong>}
-                                    {projects[index].details.urlBack &&  <a href={projects[index].details.urlBack} target="_blank">Github</a> }
+                                    {projects[index].details.urlBack &&  <a href={projects[index].details.urlBack} target="_blank">{projects[index].details.domain}</a> }
                                 </p>
                             </div>
                         </div>
                         }
-                        <button onClick={()=> hideDetail()}>Close</button>
+                        <div className="prj-cls-container">
+                            <button className="prj-close-btn" onClick={()=> hideDetail()}>Close</button>
+                        </div>
                     </div>
+                    <SinglePoly polyClass="poly-1"/>
                 </div>
      );
 }

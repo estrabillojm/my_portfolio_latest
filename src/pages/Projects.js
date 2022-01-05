@@ -16,6 +16,8 @@ const Projects = () => {
         document.getElementById("content").classList.add("show-content-details")
     }
 
+
+
     const hideDetail = () => {
         document.getElementById("details").classList.add("t-details")
         document.getElementById("p-projects").classList.add("n-details")

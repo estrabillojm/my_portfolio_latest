@@ -1,0 +1,21 @@
+
+.poly-0{
+    stroke-width:5;
+    stroke-miterlimit:10;
+}
+
+.parent-poly{
+    @apply absolute;
+    z-index:-1;
+}
+
+.poly-1{  
+    top:30px;
+    left: 23px;
+    max-height:50px;
+}
+
+.poly-1 .poly-0{
+    fill:rgb(250, 215, 174);
+    stroke:none;
+}
