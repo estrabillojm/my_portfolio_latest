@@ -4,6 +4,7 @@ import "./styles/index.css"
 import Laptop from './images/laptop.png'
 import LaptopSm from './images/laptop-sm.png'
 import Social from '../components/Social/Social'
+import { Link } from 'react-router-dom'
 const Index = () => {
     return ( 
         <div>
@@ -21,8 +22,16 @@ const Index = () => {
                                 Web Developer
                             </h2>
                             <div className="btn-container">
-                                <button className="projects">View Projects</button>
-                                <button className="profile">Profile</button>
+                                
+                                    <Link to="/projects">
+                                        <button className="projects">View Projects</button>
+                                    </Link>
+                                
+                                
+                                    <Link to="/about-me">
+                                        <button className="profile">Profile</button>
+                                    </Link>
+                                
                             </div>
 
                             <Social/>

@@ -1,0 +1,56 @@
+.container{
+    /* border:5px solid red; */
+}
+
+
+.about-first-col .about-icons{
+    @apply h-full flex justify-center items-center;
+}
+
+.about-second-col, .about-third-col{
+    @apply flex items-center;
+}
+
+
+
+.about-me-grid{
+    @apply grid gap-5;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    height:85vh;
+}
+
+.about-content{
+    @apply flex flex-col justify-center;
+}
+
+.about-content h2{
+    @apply text-xl mb-1;
+    color: #728DC7;
+}
+.about-content h3{
+    @apply font-semibold text-gray-700;
+}
+.about-content h4{
+    @apply text-sm;
+}
+
+.address{
+    @apply text-gray-700;
+}
+
+.about-content .date{
+    @apply text-gray-500;
+}
+
+.about-content p{
+    @apply text-sm;
+}
+
+.about-content .content{
+    @apply mb-5;
+}
+
+.train, .work, .college{
+    @apply mb-3 pl-3 border-l-2 border-orange-500;
+}
