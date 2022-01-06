@@ -15,6 +15,38 @@ const About = () => {
                 <div className="about-col about-second-col">
                     <div className="about-content">
                         <div className="education">
+                            <h2>About Me</h2>
+                            <div className="about-educ">
+                                <div className="content college">
+                                    <div className="sub-educ">
+                                        <p className="address" id="about-me-para">
+                                            Hi there. I'm <strong>John Michael. </strong>
+                                            I was born in Pampanga, Philippines and currently living here with my family. <br/> <br/>
+
+                                            Being a Web Developer, I am passionate about learning new technology and continuing to improve my Problem Solving, Analytical and Designing Skills.
+                                            <br/><br/>
+                                            During my spare time, I like to read books, listen to music and to play mobile games.
+                                            <br/><br/>
+                                            When it comes to my strength, I find myself as a Proactive team player which helps me to stay motivated and focused towards my work.
+                                            <br/><br/>
+                                            And when it comes to weakness, I also find myself as an introvert.
+                                            Sometimes, I am shy to share my ideas infront of many persons.
+                                            I will only tell my Ideas until they ask me to.
+                                            <br/> <br/>
+                                            If I will be given the opportunity, I will leverage all my learnings and skills and work for the upliftment of your esteemed organization. That’s all about me. thank you!
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="about-col about-third-col">
+                    <div className="about-content">
+                    <div className="education">
                             <h2>Education</h2>
                             <div className="about-educ">
                                 <div className="content college">
@@ -57,13 +89,6 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-
-
-                <div className="about-col about-second-col">
-                    <div className="about-content">
                         <div className="about-train">
                             <h2>Training & Seminars</h2>
                             <div className="train about-train-1">
@@ -86,26 +111,8 @@ const About = () => {
                                     <p className="date">September 12, 2019 - November 06, 2020</p>
                                 </div>
                             </div>
-                            <div className="train about-train-3">
-                                <h3 className="train-title">
-                                    Augmented Reality: Visualize to make it Happen
-                                </h3>
-                                <div className="sub-train">
-                                    <h4>TESDA</h4>
-                                    <p className="address">Mel-Vi, Bldg., Jose Abad Santos Avenue, Rd., <br/> Dolores, City of San Fernando, Pampanga</p>
-                                    <p className="date">March 17, 2018</p>
-                                </div>
-                            </div>
-                            <div className="train about-train-4">
-                                <h3 className="train-title">
-                                    3D Studio Max
-                                </h3>
-                                <div className="sub-train">
-                                    <h4>Microcadd Institute Inc</h4>
-                                    <p className="address">Brgy Dolores, City of San Fernando, Pampanga</p>
-                                    <p className="date">November 08, 2014 - December 13, 2014</p>
-                                </div>
-                            </div>
+                            
+                           
                         </div>
                     </div>
                 </div>

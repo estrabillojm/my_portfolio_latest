@@ -10,3 +10,53 @@
     #about-icons{
         height:280px;
     }
+
+	#about-icon-group g.about-i{
+		opacity:0;
+	}
+
+	.about-i-1{
+		animation: aboutIcon1 .5s ease-in forwards;
+	}
+
+	.about-i-2{
+		animation: aboutIcon1 .5s .5s ease-in forwards;
+	}
+
+	.about-i-3{
+		animation: aboutIcon2 .5s 1s ease-in forwards;
+	}
+
+	.about-i-4{
+		animation: aboutIcon3 .5s 1.5s ease-in forwards;
+	}
+
+	@keyframes aboutIcon1{
+		0%{
+			opacity:0;
+			transform: translateX(-100px);
+		}
+		100%{
+			opacity:1;
+		}
+	}
+
+	@keyframes aboutIcon2{
+		0%{
+			opacity:0;
+			transform: translateY(-100px);
+		}
+		100%{
+			opacity:1;
+		}
+	}
+
+	@keyframes aboutIcon3{
+		0%{
+			opacity:0;
+			transform: translateX(100px);
+		}
+		100%{
+			opacity:1;
+		}
+	}
