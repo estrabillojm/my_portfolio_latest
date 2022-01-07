@@ -16,8 +16,8 @@ const About = () => {
                     <div className="about-content">
                         <div className="education">
                             <h2>About Me</h2>
-                            <div className="about-educ">
-                                <div className="content college">
+                            <div className="about-intro">
+                                <div className="content intro">
                                     <div className="sub-educ">
                                         <p className="address" id="about-me-para">
                                             Hi there. I'm <strong>John Michael. </strong>
@@ -37,6 +37,23 @@ const About = () => {
                                         </p> 
                                     </div>
                                 </div>
+
+                                
+                            </div>
+                        </div>
+
+                        <div className="education">
+                            <h2>Motto in Life</h2>
+                            <div className="about-intro">
+                                <div className="content motto">
+                                    <div className="sub-educ">
+                                        <p className="address" id="about-me-para">
+                                            Great things never came from comfort zones.
+                                        </p> 
+                                    </div>
+                                </div>
+
+                                
                             </div>
                         </div>
                     </div>
@@ -97,7 +114,7 @@ const About = () => {
                                 </h3>
                                 <div className="sub-train">
                                     <h4>Bayan Academy</h4>
-                                    <p className="address">Brgy. Lara, City of San Fernando, Pampanga</p>
+                                    <p className="address">825 Epifanio de los Santos Ave, Diliman, <br/> Quezon City, 1103 Metro Manila</p>
                                     <p className="date">February 15, 2021 - February 24, 2021</p>
                                 </div>
                             </div>

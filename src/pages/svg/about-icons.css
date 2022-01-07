@@ -16,7 +16,7 @@
 	}
 
 	.about-i-1{
-		animation: aboutIcon1 .5s ease-in forwards;
+		animation: aboutIcon .5s ease-in forwards;
 	}
 
 	.about-i-2{
@@ -29,6 +29,16 @@
 
 	.about-i-4{
 		animation: aboutIcon3 .5s 1.5s ease-in forwards;
+	}
+
+	@keyframes aboutIcon{
+		0%{
+			opacity:0;
+			transform: translateY(100px);
+		}
+		100%{
+			opacity:1;
+		}
 	}
 
 	@keyframes aboutIcon1{
