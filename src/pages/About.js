@@ -114,7 +114,7 @@ const About = () => {
                                 </h3>
                                 <div className="sub-train">
                                     <h4>Bayan Academy</h4>
-                                    <p className="address">825 Epifanio de los Santos Ave, Diliman, <br/> Quezon City, 1103 Metro Manila</p>
+                                    <p className="address">825 Epifanio de los Santos Ave, Diliman, <br/> Quezon City, Metro Manila</p>
                                     <p className="date">February 15, 2021 - February 24, 2021</p>
                                 </div>
                             </div>

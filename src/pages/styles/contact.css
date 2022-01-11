@@ -1,0 +1,41 @@
+.sub-contact{
+    @apply border;
+}
+
+
+.contact-detail{
+    @apply flex justify-evenly;
+}
+
+.contact-info h1{
+    @apply border text-center text-7xl pb-5;
+}
+
+.contact-detail .contact-flex{
+    @apply border;
+}
+
+.btn-form button{
+    @apply border py-1 px-5;
+}
+.contact-form{
+    @apply grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.contact-form form input, .contact-form form textarea{
+    @apply border py-1 px-5;
+}
+
+.contact-form .f-group{
+    @apply flex flex-col mb-3;
+}
+
+.contact-form form{
+    @apply py-10 px-5;
+    grid-column:2/3;
+}
+
+.btn-form{
+    @apply flex justify-end;
+}
