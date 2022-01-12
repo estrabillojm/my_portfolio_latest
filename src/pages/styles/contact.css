@@ -81,6 +81,11 @@
     font-weight:300;
 }
 
+.btn-form button.sending-btn{
+    background: #ffa663;
+    cursor: not-allowed;
+}
+
 
 .contact-flex{
     @apply flex flex-col items-center justify-center;
@@ -89,3 +94,4 @@
 .contact-flex p{
     color:#FF7101;
 }
+

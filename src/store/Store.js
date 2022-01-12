@@ -12,10 +12,10 @@ export const projects = [
         status: "ongoing",
         details: {
             description: "This Portfolio is a compilation of materials that exemplifies my beliefs, skills, qualifications, education, training and experiences. It provides insight into my personality and work ethic.",
-            techs: ["React.js", "JSX", "TailwindCSS", "CSS", "CSS Media Queries", "CSS Animation"],
-            url: "https://git.heroku.com/jme-portfolio.git",
+            techs: ["React.js", "JSX", "TailwindCSS", "CSS", "CSS Media Queries", "CSS Animation", "Sweet Alert 2", "EmailJS"],
+            url: "https://github.com/estrabillojm/latest-portfolio",
             urlBack: "",
-            domain: "heroku git"
+            domain: "github"
         }
     },
     {
@@ -63,7 +63,7 @@ export const projects = [
             techs: ["HTML", "Laravel 7", "Laravel 7 Blade Template","jQuery", "SQL", "Bootstrap", "Minimal CSS"],
             url: "",
             urlBack: "",
-            domain: "github"
+            domain: ""
         }
     },
     {
