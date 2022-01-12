@@ -1,41 +1,90 @@
-.sub-contact{
-    @apply border;
-}
-
 
 .contact-detail{
     @apply flex justify-evenly;
 }
 
-.contact-info h1{
-    @apply border text-center text-7xl pb-5;
+.contact-info h2{
+    @apply text-center text-5xl pb-5 mb-5 mt-10;
+    color: #718CC7;
+    border-bottom: 1px solid rgb(218, 218, 218);
 }
 
-.contact-detail .contact-flex{
-    @apply border;
-}
 
 .btn-form button{
-    @apply border py-1 px-5;
+    @apply py-1 px-5;
 }
 .contact-form{
-    @apply grid;
-    grid-template-columns: repeat(3,1fr);
+    @apply grid mt-5;
+    grid-template-columns: repeat(12,1fr);
 }
 
+
 .contact-form form input, .contact-form form textarea{
-    @apply border py-1 px-5;
+    @apply border py-1 px-2 outline-none rounded-sm border-gray-400;
+    background: rgba(255, 255, 240, 0.733);
+    transition: border-color .5s ease-in;
+    color: rgb(94, 94, 94);
+    font-weight:300;
 }
+
+.contact-form form input:focus, .contact-form form textarea:focus{
+    @apply border-2 border-orange-600;
+}
+
+.contact-form .f-group label{
+    font-weight:300;
+    transition: color .5s ease-in;
+}
+
+.contact-focused{
+    @apply text-orange-600;
+}
+
 
 .contact-form .f-group{
     @apply flex flex-col mb-3;
 }
 
+
+
 .contact-form form{
-    @apply py-10 px-5;
-    grid-column:2/3;
+    @apply py-12 px-10 border border-gray-300 mt-7 rounded-md shadow-md;
+    background:rgba(255, 255, 255, 0.219);
+    grid-column:7/11;
+}
+
+.contact-text{
+    @apply flex items-center;
+    grid-column: 3/6;
+}
+
+.contact-text h1{
+    @apply text-right;
+    font-size:60px;
+    color: #718CC7;
+}
+
+.awesome{
+    font-weight:bolder;
+    color:#FF7101;
 }
 
 .btn-form{
     @apply flex justify-end;
+}
+
+.btn-form button{
+    @apply rounded-sm shadow-md text-white border-none hover:opacity-70;
+    background: #FF7101;
+    transition: all .3s ease-in;
+    font-weight:300;
+}
+
+
+.contact-flex{
+    @apply flex flex-col items-center justify-center;
+}
+
+.contact-flex p{
+    color:#FF7101;
 }
