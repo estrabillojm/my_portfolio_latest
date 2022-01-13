@@ -9,6 +9,9 @@ const Skills = () => {
         <div>
             <title>Skills - JM Portfolio</title>
             <Navbar page="skills"/>
+            <div className="notice-dev">
+                <h2>Small - Medium Screen Layout are still under development</h2>
+            </div>
             <div className="container skill-flex">  
                 
                 <div className="skill-content">

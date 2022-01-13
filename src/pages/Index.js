@@ -10,6 +10,9 @@ const Index = () => {
         <div>
             <title>Home - JM Portfolio</title>
             <Navbar page="home"/>
+            <div className="notice-dev">
+                <h2>Small - Medium Screen Layout are still under development</h2>
+            </div>
             <main className="container index-container global-wrapper">
                 <div className="flex-container">
                     <div className="index-intro">

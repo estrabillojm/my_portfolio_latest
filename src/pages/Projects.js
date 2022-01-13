@@ -30,7 +30,7 @@ const Projects = () => {
             <Navbar page="projects"/>
 
             <div className="notice-dev">
-                <h1>Small - Medium Screen Layout are still under development</h1>
+                <h2>Small - Medium Screen Layout are still under development</h2>
             </div>
             <div className="container project-grid">
                 <div className="p-projects no-details" id="p-projects">   

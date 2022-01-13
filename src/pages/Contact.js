@@ -69,6 +69,9 @@ const Contact = () => {
     return ( 
         <div className="contact">
             <Navbar page="contact"/>
+            <div className="notice-dev">
+                <h2>Small - Medium Screen Layout are still under development</h2>
+            </div>
             <div className="container">
                 <div className="sub-contact contact-info">
                     <h2>Get in touch</h2>

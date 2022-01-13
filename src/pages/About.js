@@ -5,6 +5,9 @@ const About = () => {
     return ( 
         <div>
             <Navbar page="about"/>
+            <div className="notice-dev">
+                <h2>Small - Medium Screen Layout are still under development</h2>
+            </div>
             <div className="container about-me-grid">
                 <div className="about-col about-first-col">
                     <div className="about-icons">
