@@ -89,9 +89,10 @@ const Contact = () => {
                 </div>
                 <div className="sub-contact contact-form">
                     <div className="contact-text">
-                        <h1>Lets Build Something <span className="awesome">Awesome!</span></h1>
+                        <h1>
+                            Lets Build Something <span className="awesome">Awesome!</span></h1>
                     </div>
-                    <form onSubmit={handleFormSubmit}>
+                    <form onSubmit={handleFormSubmit} className="main-form">
                         <div className="f-group">
                         <label htmlFor="fullName" className="fullName">Full Name</label>
                         <input type="text" id="fullName" onFocus={ styleLabel } onBlur={ removeStyle } onChange={handleInput} name="fullName" required/>

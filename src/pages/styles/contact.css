@@ -92,6 +92,79 @@
 }
 
 .contact-flex p{
-    color:#FF7101;
+    color:#a7a7a7;
 }
 
+.address, .phone, .email-info{
+    opacity:0;
+}
+.address{
+    animation: animateText .2s ease-in forwards;
+}
+
+.phone{
+    animation: animateText .2s .2s ease-in forwards;
+}
+
+.email-info{
+    animation: animateText .2s .4s ease-in forwards;
+}
+
+@keyframes animateText{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+.contact-info h2{
+    opacity:0;
+}
+.contact-info h2{
+    animation: animateGetTouch .5s  ease-in forwards;
+}
+
+
+@keyframes animateGetTouch{
+    0%{
+        opacity:0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+
+.contact-text h1{
+    opacity:0;
+    animation: animateLeft .5s .6s  ease-in forwards;
+}
+
+@keyframes animateLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-40px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+
+.contact-form form.main-form{
+    opacity:0;
+    animation: animateForm .5s .6s  ease-in forwards;
+}
+
+@keyframes animateForm{
+    0%{
+        opacity:0;
+        transform: translateX(40px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
