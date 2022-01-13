@@ -46,7 +46,6 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-                <Footer/> 
             </main>
         </div>
     );

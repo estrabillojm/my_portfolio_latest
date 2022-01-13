@@ -50,7 +50,6 @@ const Skills = () => {
                 </div>
                 <Skill/>
             </div>
-            <Footer/>
         </div>
      );
 }
