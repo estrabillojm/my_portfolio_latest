@@ -56,12 +56,12 @@ const Navbar = ({ page }) => {
                             </a>
                         </li>
                         <li className="social-logo">
-                            <a href="https://www.linkedin.com/in/john-michael-estrabillo-b3a2671aa/" className="fb-logo">
+                            <a href="https://www.linkedin.com/in/john-michael-estrabillo-b3a2671aa/" target="_blank" rel="noreferrer" className="fb-logo" >
                                 <img src={LinkedIn} alt="linkedin-page" className="li-logo"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://join.skype.com/invite/VKM4MOOOpoC7" className="skype-logo">
+                            <a href="https://join.skype.com/invite/VKM4MOOOpoC7"  target="_blank" rel="noreferrer" className="skype-logo">
                                 <img src={Skype} alt="skype-page" className="skype-logo"/>
                             </a>
                         </li>
