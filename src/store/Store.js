@@ -72,7 +72,7 @@ export const projects = [
         status: "done",
         details: {
             description: "OES is our capstone project wayback 2019. This system allow the interaction between the school Admin and Students. Student can also make an appointment and Admin can generate reports through this system",
-            techs: ["HTML", "Node.js", "Express.js", "Mongo DB","Blade Template", "Bootstrap", "Minimal CSS"],
+            techs: ["HTML", "Node.js", "Express.js", "Mongo DB","EJS Template", "Bootstrap", "Minimal CSS"],
             url: "https://github.com/estrabillojm/Enrollment-System.git",
             urlBack: "",
             domain: "github"
